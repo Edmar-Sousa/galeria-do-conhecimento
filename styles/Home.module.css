@@ -1,0 +1,63 @@
+.mainSection {
+    margin: auto;
+    max-width: 1100px;
+    width: 100%;
+    min-height: 100%;
+
+    padding: 10px 20px;
+}
+
+
+.imageContainer {
+    position: relative;
+    width: 100%;
+
+    margin: 20px auto 0;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(154px, 1fr));
+    gap: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.column .maxSize {
+    margin: auto;
+    max-width: 498px;
+}
+
+.textContainer {
+    display: none;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.description {
+    font-size: 1.4rem;
+}
+
+.show {
+    display: block;
+
+    max-width: 498px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+@media (min-width: 768px) {
+    .column {
+        display: grid;
+    }
+
+}

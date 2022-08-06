@@ -1,0 +1,94 @@
+.container {
+    width: 100%;
+    min-height: 100%;
+
+    display: grid;
+    grid-template-rows: 40px auto 100px;
+}
+
+.linkToBack {
+    padding: 0 20px;
+    max-width: 200px;
+    font-size: 1.5rem;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+}
+
+.imageInfo {
+
+}
+
+.imageContainer {
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.description {
+    padding: 10px;
+    font-size: 1.4rem;
+}
+
+.textContainer {
+    padding-top: 20px;
+    margin: auto;
+    max-width: 496px;
+    width: 100%;
+}
+
+
+.bottomButton {
+    margin: auto;
+    max-width: 1100px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    height: 40px;
+    width: 100px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+
+    background: none;
+    border: none;
+
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .imageInfo {
+        display: flex;
+    }
+
+    .title {
+        padding: 0 10px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .imageContainer, .textContainer {
+        margin: 0;
+    }    
+
+    .textContainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
