@@ -12,7 +12,7 @@ Galeria do conhecimento é um app de galeria que permite filtrar fotos através 
 
 ```bash
   # Clone o projeto para sua maquina local
-  git clone https://github.com/Edmar-Sousa/teste-dev.git
+  git clone https://github.com/Edmar-Sousa/galeria-do-conhecimento.git
   
   # No diretorio do projeto
   cd galeria-do-conhecimento
